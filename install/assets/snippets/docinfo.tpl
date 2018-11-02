@@ -1,14 +1,14 @@
 //<?php
 /**
  * DocInfo
- * 
- * Берем любое поле из любого документа (меньше запросов по сравнению с GetField)
+ *
+ * Take any field from any document (fewer requests than GetField)
  *
  * @category 	snippet
- * @version 	1
+ * @version 	0.4
  * @license 	http://www.gnu.org/copyleft/gpl.html GNU Public License (GPL)
- * @internal	@properties 
- * @internal	@modx_category add
+ * @internal	@properties
+ * @internal	@modx_category Content
  * @internal    @installset base, sample
  */
 
