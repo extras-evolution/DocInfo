@@ -64,7 +64,7 @@ if (in_array($field, $default_field)) {
         $output = $tv[$field];
     } else {
         $tv = $modx->getTemplateVar($field, '*', $docid);
-        $output = ($tv['value'] != '') ? $tv['value'] : $tv['defaultText'];
+        $output = ($tv['value'] != '') ? $tv['value'] : $tv['default_text'];
     }
 }
 
